@@ -19,6 +19,9 @@ import typescript from '../assets/typescript.png';
 import truffle from '../assets/truffle.png';
 import solidity from '../assets/solidity.png';
 import ethereum from '../assets/ethereum.png';
+import crypto from '../assets/crypto.jpg';
+import games from '../assets/games.jpg';
+import webDev from '../assets/webdev.jpg';
 
 import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
@@ -73,4 +76,7 @@ export default {
 	spotify,
 	solidity,
 	ethereum,
+	crypto,
+	games,
+	webDev,
 };
