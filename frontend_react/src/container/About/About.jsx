@@ -1,31 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
-import { images } from '../../constants';
+import { AppWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
 
 import './About.scss';
-
-// const abouts = [
-// 	{
-// 		title: 'Blockchain Development',
-// 		description:
-// 			'I specialize in blockchain development with Solidity, Truffle and Hardhat.',
-// 		imgUrl: images.crypto,
-// 	},
-// 	{
-// 		title: 'Full Stack Development',
-// 		description:
-// 			'I am a React developer and also know Node.JS, Redux and Python. I love building beautiful web applications.',
-// 		imgUrl: images.webDev,
-// 	},
-
-// 		title: 'Game Development',
-// 		description:
-// 			'I also have some experience with Unity and UE4 Game Development',
-// 		imgUrl: images.games,
-// 	},
-// ];
 
 const About = () => {
 	const [abouts, setAbouts] = useState([]);
@@ -71,4 +50,4 @@ const About = () => {
 	);
 };
 
-export default About;
+export default AppWrap(About, 'about');
